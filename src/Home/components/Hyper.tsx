@@ -30,7 +30,7 @@ export default function Hyper() {
       <div className="flex flex-row p-8">
 
         <div className="w-1/2">
-            <div className="pt-4">
+            <div className="pt-4 pb-6">
             <CurrentTime/>
             </div>
 
@@ -45,6 +45,10 @@ export default function Hyper() {
 
         <div className="w-1/2 flex flex-col justify-start">
             <div className="">
+
+              <div>
+                <PomodoroTimer></PomodoroTimer>
+              </div>
 
                 <div className="align-top">
                   <TodoList></TodoList>
