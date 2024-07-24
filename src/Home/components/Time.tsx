@@ -22,7 +22,7 @@ const CurrentTime = () => {
   };
 
   return (
-    <div className="flex items-center justify-center  bg-gray-100">
+    <div className="flex items-center justify-center ">
       <div className="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col items-center justify-center">
         <div className="w-42 h-42 flex flex-col items-center justify-center">
           <p className="text-xl text-gray-600">{formatDate(currentTime)}</p>

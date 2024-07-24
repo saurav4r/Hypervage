@@ -185,7 +185,7 @@ const TodoList = () => {
   };
 
   return (
-    <div className="min-w-[300px] max-w-md mx-auto mt-10 p-4 bg-white shadow-md rounded-lg">
+    <div className="min-w-[500px] max-w-md mx-auto mt-10 p-4 bg-white shadow-md rounded-lg">
       <h1 className="text-2xl font-bold mb-4 text-center">Todo List</h1>
       <form onSubmit={handleSubmit} className="flex mb-4">
         <input

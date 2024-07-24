@@ -19,7 +19,7 @@ const IssueTracker = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-5 border rounded shadow">
+    <div className="max-w-lg mx-auto mt-10 p-5 border rounded shadow bg-white">
       <h2 className="text-xl font-bold mb-5">Issue Tracker</h2>
       
       <div className="mb-4">

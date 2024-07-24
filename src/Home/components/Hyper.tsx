@@ -20,31 +20,47 @@ import Youtubecc from "./youtubecard";
 
 export default function Hyper() {
   return (
-    <div className="flex">
-      <div className="p-4 w-1/2">
-        <div>
-          <CurrentTime></CurrentTime>
+    <div className="flex flex-col">
+      <div className="p-8">
+        <h1 className="text-center font-black text-2xl pt-6 pb-3 font-sans">
+          Welcome To Hyperverge chrome Extension
+        </h1>
+      </div>
+
+      <div className="flex flex-row p-8">
+
+        <div className="w-1/2">
+            <div className="pt-4">
+            <CurrentTime/>
+            </div>
+
+            <div>
+              <AnnouncementTable></AnnouncementTable>
+            </div>
+
+            <div>
+                <ChatBox></ChatBox>
+              </div>
         </div>
 
-        <div>
-          <IssueTracker></IssueTracker>
-        </div>
+        <div className="w-1/2 flex flex-col justify-start">
+            <div className="">
 
-        <div>
+                <div className="align-top">
+                  <TodoList></TodoList>
+                </div>
 
-        <PomodoroTimer />
-        </div>
-       </div>
-      <div className="flex flex-wrap justify-center items-center bg-blue-100 p-4 w-full">
-        <div className="p-2">
-          <Youtubecc/>
-        </div>
+                <div className="p-3">
+                  <IssueTracker></IssueTracker>
+                </div>
 
-        <div className="p-2">
-         <TodoList />
-        </div>
-        <div className="p-2">
-          <AnnouncementTable />
+                <div className="flex justify-center items-center pt-8">
+                  <Youtubecc></Youtubecc>
+                </div>
+
+                
+            </div>
+
         </div>
       </div>
     </div>

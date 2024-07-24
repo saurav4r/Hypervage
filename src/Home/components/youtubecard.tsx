@@ -15,7 +15,7 @@ const Youtubecc = () => {
       };
 
   return (
-    <div>
+    <div className="justify-center">
           <Card sx={{ maxWidth: 400, marginBottom: 2 }}>
             <CardActionArea onClick={handleCardClick}>
               <CardMedia
