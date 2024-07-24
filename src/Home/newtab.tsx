@@ -6,7 +6,7 @@ import Hyper from "./components/Hyper";
 const App: React.FC<{}> = () => {
   return (
    
-      <div className="bg-[#F4F2EE] text-base">
+      <div>
         <div>
             <Hyper/>
         </div>
